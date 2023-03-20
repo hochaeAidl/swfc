@@ -7,7 +7,7 @@
 | command | description |
 |:---:|---|
 | ls | list directory contents
-| df | display file system, option -h : human, 알아보기 쉽게
+| df | disk free, disk 사용량을 출력. -h: human, 사람이 알아보기 쉽게
 | man | manual, online reference manual. 명령어들에 대한 정보를 확인할 수 있다.
 | which | which command, command의 위치
 | type | type of command, command의 type. external: location info.
@@ -59,7 +59,6 @@
 | tr | translate, 입력된 문자열을 변화시켜 출력
 | wc | word count, option에 따라 line, word, byte count
 | cut | cut line, 행에서 선택된 부분을 출력. -d : delimiter(구분자)를 기준으로 구분(cut)구분.
-| df | disk free, disk 사용량을 출력. -h: 사람이 확인하기 쉽게 출력
 | mount | mount filesystem, portable storage device를 file tree에 mount
 | umount | un-mount filesystem, mounted storage device를 해제
 | mkfs | make filesystem, 특정 filesystem으로 format
@@ -100,6 +99,7 @@
 | w, e, b | 단어 단위의 이동. 구두점들도 하나의 단어로 취급
 | W, E, B | 단위 단위의 이동. 공백을 기준으로 단어 구분
 | i | insert mode, cursor 위치에서 insert mode start
+| I | insert mode, cursor 행의 맨 처음부터 insert mode start
 | a | append mode, cursor 다음 위치에서 insert mode start
 | A | append mode, cursor가 있는 line 마지막 부터 insert mode start
 | r | replace character. cursor 위치의 문자를 수정
